@@ -14,8 +14,10 @@ public class HomeController : Controller
         return View();
     }
 
+
     public IActionResult Privacy()
     {
+        var test = "MArtin";
         return View();
     }
 
